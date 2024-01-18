@@ -1,0 +1,78 @@
+.menu{
+    height: 700px;
+    width: 240px;
+    background-color: antiquewhite;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.nav-menu{
+    display: flex;
+    height: 56px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-icon {
+    padding: 8px 0px 8px 8px;
+}
+.menu-icon a{
+    text-decoration: none;
+    color: currentcolor;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 120px;
+    padding: 18px 14px 18px 0px;
+}
+
+.youtube_logo {
+    height: 20px;
+    width: 90px;
+}
+
+.navlogo span {
+    margin: 10px 0 0 1px;
+    align-self: baseline;
+    font-size: 10px;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+    margin: 0 35px 0 15px;
+    align-self: center;
+}
+.home,
+.shorts,
+.subscriptions,
+.library,
+.history{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    color: #0f0f0f;
+    margin: 4px 15px ;
+    justify-content: flex-start;
+}
+.signIn{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.gmailLogin{
+    display: flex;
+    padding-right: 30px;
+}
+.signIn p{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}

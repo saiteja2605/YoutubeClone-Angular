@@ -1,0 +1,16 @@
+.signIn{
+border: 2px solid #ccc;
+border-radius: 40px;
+height: 30px;
+width: 90px;
+display: flex;
+color: #065fd4;
+font-size: 14px;
+line-height: 36px;
+justify-content: center;
+align-items: center;
+}
+.fa-circle-user{
+    padding-right: 5px;
+  
+}
